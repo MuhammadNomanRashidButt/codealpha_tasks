@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quote will appear here"
+        android:layout_marginTop="200dp"
+        android:textSize="22sp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Author"
+        android:textSize="18sp"
+        android:textColor="#757575"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnNewQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="New Quote"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:fontFamily="sans-serif-medium" />
+
+
+</LinearLayout>
